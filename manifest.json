@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "parker.drawer",
+  "name": "Drawer",
+  "version": "1.0.0",
+  "author": "parker",
+  "description": "Bar button that opens a panel holding the bar widgets you tuck away",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Drawer.qml"
+  },
+  "barWidget": {
+    "displayName": "Drawer",
+    "description": "Click to show tucked-away bar widgets",
+    "category": "Layout",
+    "allowMultiple": true,
+    "defaultSection": "right",
+    "defaults": {
+      "icon": "󰅀",
+      "iconOpen": "󰅃",
+      "tooltip": "Drawer",
+      "items": []
+    }
+  }
+}
